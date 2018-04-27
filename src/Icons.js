@@ -6,7 +6,7 @@ export default class Icons extends React.Component {
     this.state = {
       svg_icon: "",
     }
-    this.static_url = props.static_url ? props.static_url : document.STATIC_URL ? document.STATIC_URL : '';
+    this.static_url = props.static_url ? props.static_url : document.STATIC_URL ? document.STATIC_URL : 'https://raw.githubusercontent.com/samuelstevens9/react-svg-components/master/';
     this.icons = {
       'react': 'react-logo.svg',
     }
