@@ -1,0 +1,35 @@
+{
+    "name": "react-svg-components",
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "A collection of UI/UX components that inject SVGs as icons.",
+    "main": "build/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/samuelstevens9/react-svg-components.git"
+    },
+    "peerDependencies": {
+        "react": "^16.0.0"
+    },
+    "dependencies": {
+        "react": "^16.0.0",
+        "webpack": "^3.10.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "author": {
+        "name": "Sam Stevens",
+        "email": "sam@samuelstevens.net"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.1.1",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.5.1"
+    }
+}
